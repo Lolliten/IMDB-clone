@@ -10,34 +10,36 @@ Hello
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/ebT1wQO_)
 >>>>>>> Stashed changes
 
-BILD PÅ FÖRSTA SIDAN
 
 ![DBOM logo](Logo.png)
 ##Projektnamn: U05 IMDb-clone (eller DBOM - Database of Movies)
 
-Beskrivning: Detta projekt har gått ut på att skapa en databas med filmer. Här man kan logga in, registerar sig, se bilder på några Horror filmer från Japan och Sci-fi filmer från USA, där man även kan se några detaljer om filmerna. Man kan, som registrerad använadare, även skapa en lista med filmer (och ändra listan och ta bort filmer från listan) Användaren kan också skriva (lägga till), ändra och ta bort sina kommentarer om en film. 
+Beskrivning: Detta projekt har gått ut på att skapa en databas med filmtitlar likt IMDB. Här man kan logga in, registerar sig, se cover, samt lite detaljer om filmerna. Man kan som registrerad använadare, även skapa en lista med filmer (och ändra listan tex ta bort filmer från listan) Användaren kan också skriva, ändra och ta bort sina kommentarer om en film. 
 
+```
 För att köra detta projekt lokalt behöver man ha följande installerat:
 - PHP 
 - Composer
 - Node.js och NPM
 - Tailwind
-
+```
+```
 Installation:
 1. Klonar från Github - git clone
-2. Navigera till projektmappen -cd 'vårt protekts namn`
+2. Navigera till projektmappen -cd <projektnamn>
 3. Kör - composer install
 4. Kör - npm install
 5. Kopierar .env.example file och skapar  .env i gitignore
 6. Skickar TMDB_TOKEN i vår .env file för att skapa en API key. - php artisan key:generate
 7. Kör migrations - php artisan migrate
 8. Använder php artisan serve för att komma till - localhost:8000 i browser
+```
 
 Förberedelser: Vi klonar ner projektet från Github till VS Code, och ser till att installera de senaste versionerna av Nodejs och NPM i Lavarel.Se detaljer Ovan.
 ![Node logo](nodejs.png)
 ![NPM loho](image.png)
 
-Vi ser till att vi har Tailwind, om inte, så installerar vi Tailwind.
+Installerar Tailwind.
 Vi öppnar och jobbar i en Docker container. 
 Vi använder Mariadb som databas och ser till att vi har alla detaljer rätt för att kunna koppla upp oss till Adminer, Mariadb. 
 `http://localhost:8080`.
@@ -48,7 +50,7 @@ Vi gjorde även ett ER-Diagram, site-map, och Low och High Fidelity i Figma för
 ![ER digram](<ER diagram.png>)
 
 
-Använding av DBOM: DBOM - Database of Movies kan användas av personer som har ett större intresse av filmer inom genren Horror som kommer ifrån Japan och/eller Sci-fi filmer som kommer ifrån USA. Man kan besöka siten utan att vara användare men man har då limiterade rättighets tillgång. I och med att vi limiterar antal genre och länder, så kan användrna snabbare hitta relevanta filmer inom deras intresseområde.
+Använding av DBOM: DBOM - Database of Movies kan användas av personer som har ett större intresse av filmer inom genren Horror som kommer ifrån Japan och/eller Sci-fi filmer som kommer ifrån USA. Man kan besöka siten utan att vara användare men man har då limiterad tillgång. I och med att vi limiterar antal genre och länder, så kan användrna snabbare hitta relevanta filmer inom deras intresseområde.
 
 Som besökare har man bara läsrättigheter.
 Som registrerad användare:
