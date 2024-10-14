@@ -1,17 +1,7 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/ebT1wQO_)
-Hello
-
-
-
-    <<<<<<< Updated upstream
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/ebT1wQO_)
-Hello
-=======
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/ebT1wQO_)
->>>>>>> Stashed changes
-
+Hello!
 
 ![DBOM logo](Logo.png)
+
 ##Projektnamn: U05 IMDb-clone (eller DBOM - Database of Movies)
 
 Beskrivning: Detta projekt har gått ut på att skapa en databas med filmtitlar likt IMDB. Här man kan logga in, registerar sig, se cover, samt lite detaljer om filmerna. Man kan som registrerad använadare, även skapa en lista med filmer (och ändra listan tex ta bort filmer från listan) Användaren kan också skriva, ändra och ta bort sina kommentarer om en film. 
